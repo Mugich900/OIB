@@ -1,0 +1,10 @@
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\bin\Debug\OIB_shifrovanie.exe.config
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\bin\Debug\OIB_shifrovanie.exe
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\bin\Debug\OIB_shifrovanie.pdb
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.csproj.AssemblyReference.cache
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.Form1.resources
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.Properties.Resources.resources
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.csproj.GenerateResource.cache
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.csproj.CoreCompileInputs.cache
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.exe
+C:\Users\леново\source\repos\OIB_shifrovanie\OIB_shifrovanie\obj\Debug\OIB_shifrovanie.pdb
