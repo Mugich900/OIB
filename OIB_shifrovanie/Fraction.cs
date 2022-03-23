@@ -61,14 +61,14 @@ namespace OIB_shifrovanie
         public override string Encryption(string text)
         {
             text = text.ToUpper().Trim();
-            key = DeleteExcess(key, " ", "");
-            key = DeleteExcess(key, ".", "");
-            key = DeleteExcess(key, ",", "");
-            key = DeleteExcess(key, "?", "");
-            key = DeleteExcess(key, "!", "");
-            key = DeleteExcess(key, ":", "");
-            key = DeleteExcess(key, ";", "");
-            key = DeleteExcess(key, "-", "");
+            text = DeleteExcess(text, " ", "");
+            text = DeleteExcess(text, ".", "");
+            text = DeleteExcess(text, ",", "");
+            text = DeleteExcess(text, "?", "");
+            text = DeleteExcess(text, "!", "");
+            text = DeleteExcess(text, ":", "");
+            text = DeleteExcess(text, ";", "");
+            text = DeleteExcess(text, "-", "");
             string str = "";
 
             for (int l = 0; l < text.Length; l++)
