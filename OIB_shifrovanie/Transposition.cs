@@ -17,9 +17,9 @@ namespace OIB_shifrovanie
             }
             return str;
         }
-        string key = "СОБАКА";
+        string key = "";
         string text = "";
-        public Transposition(string text)
+        public Transposition(string text, string key)
         {
             this.text = text.ToUpper();
             this.text = DeleteExcess(this.text, " ");
@@ -30,6 +30,7 @@ namespace OIB_shifrovanie
             this.text = DeleteExcess(this.text, ":");
             this.text = DeleteExcess(this.text, ";");
             this.text = DeleteExcess(this.text, "-");
+            this.key = key.ToUpper();
         }
         char[,] letterArray = new char[8, 6];
 

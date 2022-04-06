@@ -32,17 +32,21 @@ namespace OIB_shifrovanie
 
         public override void CreateSubstitutionAlphabet()
         {
-            for (int i = 0; i < key.Length; i++)
+            int g = key.Length;
+            while (g >= 33)
             {
-                for (int j = 0; j < key.Length; j++)
+                for (int i = 0; i < key.Length; i++)
                 {
-                    if(key[i] == key[j] && i!=j)
+                    for (int j = 0; j < key.Length; j++)
                     {
-                        key = key.Remove(j, 1);
+                        if (key[i] == key[j] && i != j)
+                        {
+                            key = key.Remove(j, 1);
+                        }
                     }
                 }
+                g = key.Length;
             }
-            int g = key.Length;
         }
 
         public override string Encryption(string text)
@@ -55,6 +59,7 @@ namespace OIB_shifrovanie
             text = DeleteExcess(text, ":");
             text = DeleteExcess(text, ";");
             text = DeleteExcess(text, "-");
+            text = DeleteExcess(text, "—");
             string str = "";
             for (int i = 0; i < text.Length; i++)
             {
